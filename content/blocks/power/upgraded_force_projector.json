@@ -4,6 +4,7 @@
     "size": 3,
     "health": 720,
     "radius": 80,
+    "shieldHealth": 1024,
     "phaseRadiusBoost": 100,
     "phaseUseTime": 350,
     "breakage": 512,
@@ -33,12 +34,17 @@
 
     ],
     "consumes": {
-		"power":0.1,
-		"items": {
-			"items": [ {"item": "phase-fabric", "amount": 1} ],
-			"booster": true,
-			"optional": true
+        "power": 0.1,
+        "items": {
+            "items": [
+                {
+                    "item": "phase-fabric",
+                    "amount": 1
+                }
+            ],
+            "booster": true,
+            "optional": true
         }
-	},
+    },
     "research": "composite_wall_large"
 }

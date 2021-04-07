@@ -4,6 +4,7 @@
     "size": 3,
     "health": 1720,
     "radius": 100,
+    "shieldHealth": 2048,
     "phaseRadiusBoost": 160,
     "phaseUseTime": 600,
     "breakage": 2048,
@@ -33,12 +34,17 @@
 
     ],
     "consumes": {
-		"power": 0.224,
-		"items": {
-			"items": [ {"item": "shield_module", "amount": 1} ],
-			"booster": false,
+        "power": 0.224,
+        "items": {
+            "items": [
+                {
+                    "item": "shield_module",
+                    "amount": 1
+                }
+            ],
+            "booster": false,
             "optional": false
         }
-	},
+    },
     "research": "composite_wall_large"
 }

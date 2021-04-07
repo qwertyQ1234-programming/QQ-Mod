@@ -29,7 +29,23 @@
 		"power": 0.05
 	},
 	"requirements": [
-		{"item": "copper", "amount": 30}
+		{
+			"item": "copper",
+			"amount": 256
+		}
+		{
+			"item": "shield_module",
+			"amount": 1
+		}
+		{
+			"item": "basic_circuit",
+			"amount": 14
+		}
+		{
+			"item": "lead",
+			"amount": 256
+		}
+
 	],
 	"category": "crafting",
 	"research": {
